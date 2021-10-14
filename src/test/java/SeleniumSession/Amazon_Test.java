@@ -8,6 +8,7 @@ public class Amazon_Test {
 		Browser_Util br= new Browser_Util();
 		br.initDriver("chrome");
 		br.launchurl("https://www.amazon.com");
+		System.out.println("url is launched...");
 		String title =br.getTitle();
 		System.out.println(title);
 		String currentUrl=br.getCurrentUrl();
